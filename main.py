@@ -29,6 +29,19 @@ list = generate(2**32, 1664525, 1013904223, 1,  5)
 #Borland C/C++
 list = generate(2**32, 22695477, 1, 1,  5)
 
+#Turbo Pascal
+list = generate(2**32, 134775813, 1, 1,  5)
+
+#Microsoft Visual Basic
+list = generate(2**24, 1140671485, 1, 1,  5)
+
+#Java's java.util.Random
+list = generate(2**48, 25214903917, 1, 1,  5)
+
+#the infamous RANDU
+list = generate(2**31, 65539, 0, 1,  5)
+
+
 
 for x in list:
     print(x)
